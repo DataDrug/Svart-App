@@ -21,4 +21,4 @@ Here is how the application is supposed to work. Some of these features hasn't b
 
 ## Personal Comments
 
-Somewhere in the future I might change how some of these features works.
+Somewhere in the future I might change how some parts of the app works.
