@@ -15,7 +15,7 @@ This application will:
 
 ## How does it work
 
-Here is how the application is supposed to work. Some of these features hasn't been implemented yet (but it will).
+Here is how the application is supposed to work. Some of these features haven't been implemented yet (but it will).
 
 ![Application Flow Chart](https://github.com/ikenami/Svart-App/blob/master/img/app-flow.jpg)
 
