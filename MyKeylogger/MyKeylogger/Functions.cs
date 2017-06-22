@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -89,22 +88,5 @@ namespace MyKeylogger
             CreateFile();
         }
 
-        /// <summary>
-        /// Function to remove special characters of a string. Used to name files.
-        /// </summary>
-        /// <param name="str"></param>
-        /// <returns></returns>
-        public static string RemoveSpecialCharacters(string str)
-        {
-            StringBuilder sb = new StringBuilder();
-            foreach (char c in str)
-            {
-                if ((c >= '0' && c <= '9') || (c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z') || c == '-' || c == '_' || c == ' ')
-                {
-                    sb.Append(c);
-                }
-            }
-            return sb.ToString();
         }
     }
-}
